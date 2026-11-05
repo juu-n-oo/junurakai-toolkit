@@ -1,0 +1,23 @@
+{
+  "font": {
+    "family": {
+      "sans": { "$value": "Inter, system-ui, sans-serif", "$type": "fontFamily" },
+      "mono": { "$value": "ui-monospace, SFMono-Regular, monospace", "$type": "fontFamily" }
+    },
+    "size": {
+      "sm": { "$value": "14px", "$type": "fontSize" },
+      "md": { "$value": "16px", "$type": "fontSize" },
+      "lg": { "$value": "20px", "$type": "fontSize" },
+      "xl": { "$value": "24px", "$type": "fontSize" }
+    },
+    "weight": {
+      "regular": { "$value": 400, "$type": "fontWeight" },
+      "medium": { "$value": 500, "$type": "fontWeight" },
+      "semibold": { "$value": 600, "$type": "fontWeight" }
+    },
+    "lineHeight": {
+      "tight": { "$value": 1.2, "$type": "number" },
+      "normal": { "$value": 1.5, "$type": "number" }
+    }
+  }
+}

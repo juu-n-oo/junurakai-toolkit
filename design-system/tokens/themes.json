@@ -1,0 +1,13 @@
+{
+  "$description": "Theme mappings reference semantic colors. Add product-specific modes only after approval.",
+  "theme": {
+    "light": {
+      "background": { "$value": "{color.background.canvas}", "$type": "color" },
+      "text": { "$value": "{color.content.primary}", "$type": "color" }
+    },
+    "dark": {
+      "background": { "$value": "{color.neutral.900}", "$type": "color" },
+      "text": { "$value": "{color.neutral.0}", "$type": "color" }
+    }
+  }
+}

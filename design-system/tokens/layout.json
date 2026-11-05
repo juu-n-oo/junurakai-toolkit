@@ -1,0 +1,24 @@
+{
+  "radius": {
+    "sm": { "$value": "4px", "$type": "dimension" },
+    "md": { "$value": "8px", "$type": "dimension" },
+    "lg": { "$value": "12px", "$type": "dimension" },
+    "full": { "$value": "9999px", "$type": "dimension" }
+  },
+  "size": {
+    "controlSm": { "$value": "32px", "$type": "dimension" },
+    "controlMd": { "$value": "40px", "$type": "dimension" },
+    "controlLg": { "$value": "48px", "$type": "dimension" },
+    "touchTarget": { "$value": "44px", "$type": "dimension" }
+  },
+  "breakpoint": {
+    "sm": { "$value": "360px", "$type": "dimension" },
+    "md": { "$value": "768px", "$type": "dimension" },
+    "lg": { "$value": "1280px", "$type": "dimension" },
+    "xl": { "$value": "1440px", "$type": "dimension" }
+  },
+  "shadow": {
+    "sm": { "$value": { "color": "#0F172A1A", "offsetX": "0px", "offsetY": "1px", "blur": "2px", "spread": "0px" }, "$type": "shadow" },
+    "md": { "$value": { "color": "#0F172A1A", "offsetX": "0px", "offsetY": "4px", "blur": "8px", "spread": "0px" }, "$type": "shadow" }
+  }
+}

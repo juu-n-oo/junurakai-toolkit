@@ -1,0 +1,33 @@
+{
+  "$description": "Portable baseline: map these aliases to a product's approved palette before use.",
+  "color": {
+    "neutral": {
+      "0": { "$value": "#FFFFFF", "$type": "color" },
+      "50": { "$value": "#F8FAFC", "$type": "color" },
+      "100": { "$value": "#F1F5F9", "$type": "color" },
+      "500": { "$value": "#64748B", "$type": "color" },
+      "900": { "$value": "#0F172A", "$type": "color" }
+    },
+    "blue": {
+      "500": { "$value": "#2563EB", "$type": "color" },
+      "600": { "$value": "#1D4ED8", "$type": "color" }
+    },
+    "red": {
+      "500": { "$value": "#DC2626", "$type": "color" }
+    },
+    "background": {
+      "canvas": { "$value": "{color.neutral.0}", "$type": "color" },
+      "surface": { "$value": "{color.neutral.50}", "$type": "color" }
+    },
+    "content": {
+      "primary": { "$value": "{color.neutral.900}", "$type": "color" },
+      "secondary": { "$value": "{color.neutral.500}", "$type": "color" },
+      "inverse": { "$value": "{color.neutral.0}", "$type": "color" }
+    },
+    "action": {
+      "primary": { "$value": "{color.blue.500}", "$type": "color" },
+      "primaryHover": { "$value": "{color.blue.600}", "$type": "color" },
+      "danger": { "$value": "{color.red.500}", "$type": "color" }
+    }
+  }
+}

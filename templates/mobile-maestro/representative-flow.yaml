@@ -1,0 +1,8 @@
+# Set appId to the product's actual bundle/application id before committing this flow.
+# Keep secrets and real user credentials outside the flow file.
+appId: com.example.product
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Home"
+- takeScreenshot: representative-home

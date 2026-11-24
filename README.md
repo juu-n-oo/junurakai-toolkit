@@ -5,6 +5,7 @@ Reusable, local-first development harnesses for Dandi Works projects.
 ## Included
 
 - `skills/design-system-harness/`: Codex skill for design-system-led UI delivery.
+- `skills/tech-blog-voice/`: skill for writing tech blog posts in Joonwoo's blog voice (Korean, 존댓말).
 - `design-system/`: portable DTCG token baseline and decision documents.
 - `templates/static-web/`: Playwright visual-regression starting point for static sites.
 - `templates/react-shadcn/`: project-local shadcn configuration example.
